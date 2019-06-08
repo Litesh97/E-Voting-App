@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:id="@+id/Username"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:id="@+id/logout"
+            android:layout_alignBaseline="@id/Username"
+            android:layout_marginRight="5dp"
+            android:onClick="LogOut"
+            android:background="@drawable/logout"
+            android:layout_alignParentEnd="true"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/host"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/host"
+            android:onClick="Host_Election"
+            android:layout_marginHorizontal="50dp"
+            />
+
+
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/host"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/vote"
+            android:onClick="Vote_For_Election"
+            android:layout_marginStart="20dp"
+            android:id="@+id/vote" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:background="@drawable/manage"
+            android:layout_height="wrap_content"
+            android:id="@+id/manage"
+            android:layout_below="@id/vote"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:onClick="Manage_Elections" />
+
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Results"
+            android:background="@drawable/result"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/manage"
+            android:id="@+id/result_display"
+            android:onClick="result_dis"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

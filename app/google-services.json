@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "571588064613",
+    "firebase_url": "https://votingapp-c8182.firebaseio.com",
+    "project_id": "votingapp-c8182",
+    "storage_bucket": "votingapp-c8182.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571588064613:android:64a4cd55db3a1283",
+        "android_client_info": {
+          "package_name": "com.example.rajat.voting_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571588064613-90ve8lo1tac9t119nvj7llnrbo958rfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajat.voting_app",
+            "certificate_hash": "17ffcee6f1a6700021e65410002081c8ec6d8fa4"
+          }
+        },
+        {
+          "client_id": "571588064613-21tfa4q3n9kos7klj12ijhoolt4qvs2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajat.voting_app",
+            "certificate_hash": "2031572182a5bbdd04e31eeba957a4eea2fd2c5c"
+          }
+        },
+        {
+          "client_id": "571588064613-9e7kv0hvkdv7b1idr5hi26vttaqs223d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoCkKbZK8teYWpNxHYXlaHsWaKOUXU_l0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571588064613-9e7kv0hvkdv7b1idr5hi26vttaqs223d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
